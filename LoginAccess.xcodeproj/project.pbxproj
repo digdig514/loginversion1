@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		177262D51E5B9CE400B8590F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177262D41E5B9CE400B8590F /* AppDelegate.swift */; };
 		177262D71E5B9CE400B8590F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177262D61E5B9CE400B8590F /* ViewController.swift */; };
-		177262DA1E5B9CE400B8590F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177262D81E5B9CE400B8590F /* Main.storyboard */; };
 		177262DC1E5B9CE400B8590F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177262DB1E5B9CE400B8590F /* Assets.xcassets */; };
 		177262DF1E5B9CE400B8590F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177262DD1E5B9CE400B8590F /* LaunchScreen.storyboard */; };
+		17B82ED11E5E38C1004CA0D4 /* NewUserControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B82ED01E5E38C1004CA0D4 /* NewUserControllerViewController.swift */; };
+		17B82ED31E5E398A004CA0D4 /* dashBoardViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B82ED21E5E398A004CA0D4 /* dashBoardViewControllerViewController.swift */; };
+		17B82ED61E5E3B4F004CA0D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B82ED41E5E3B4F004CA0D4 /* Main.storyboard */; };
+		17FCA4621E5E462B0071480F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCA4611E5E462B0071480F /* User.swift */; };
+		17FCA4641E5E8B780071480F /* ForgotPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCA4631E5E8B780071480F /* ForgotPwdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		177262D11E5B9CE400B8590F /* LoginAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		177262D41E5B9CE400B8590F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		177262D61E5B9CE400B8590F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		177262D91E5B9CE400B8590F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		177262DB1E5B9CE400B8590F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		177262DE1E5B9CE400B8590F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		177262E01E5B9CE400B8590F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B82ED01E5E38C1004CA0D4 /* NewUserControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserControllerViewController.swift; sourceTree = "<group>"; };
+		17B82ED21E5E398A004CA0D4 /* dashBoardViewControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dashBoardViewControllerViewController.swift; sourceTree = "<group>"; };
+		17B82ED51E5E3B4F004CA0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17FCA4611E5E462B0071480F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		17FCA4631E5E8B780071480F /* ForgotPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPwdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				177262D41E5B9CE400B8590F /* AppDelegate.swift */,
 				177262D61E5B9CE400B8590F /* ViewController.swift */,
-				177262D81E5B9CE400B8590F /* Main.storyboard */,
 				177262DB1E5B9CE400B8590F /* Assets.xcassets */,
+				17B82ED41E5E3B4F004CA0D4 /* Main.storyboard */,
 				177262DD1E5B9CE400B8590F /* LaunchScreen.storyboard */,
 				177262E01E5B9CE400B8590F /* Info.plist */,
+				17B82ED01E5E38C1004CA0D4 /* NewUserControllerViewController.swift */,
+				17B82ED21E5E398A004CA0D4 /* dashBoardViewControllerViewController.swift */,
+				17FCA4611E5E462B0071480F /* User.swift */,
+				17FCA4631E5E8B780071480F /* ForgotPwdViewController.swift */,
 			);
 			path = LoginAccess;
 			sourceTree = "<group>";
@@ -124,9 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B82ED61E5E3B4F004CA0D4 /* Main.storyboard in Resources */,
 				177262DF1E5B9CE400B8590F /* LaunchScreen.storyboard in Resources */,
 				177262DC1E5B9CE400B8590F /* Assets.xcassets in Resources */,
-				177262DA1E5B9CE400B8590F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,28 +149,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B82ED31E5E398A004CA0D4 /* dashBoardViewControllerViewController.swift in Sources */,
+				17B82ED11E5E38C1004CA0D4 /* NewUserControllerViewController.swift in Sources */,
 				177262D71E5B9CE400B8590F /* ViewController.swift in Sources */,
+				17FCA4621E5E462B0071480F /* User.swift in Sources */,
 				177262D51E5B9CE400B8590F /* AppDelegate.swift in Sources */,
+				17FCA4641E5E8B780071480F /* ForgotPwdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		177262D81E5B9CE400B8590F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				177262D91E5B9CE400B8590F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		177262DD1E5B9CE400B8590F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				177262DE1E5B9CE400B8590F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		17B82ED41E5E3B4F004CA0D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B82ED51E5E3B4F004CA0D4 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -302,6 +318,7 @@
 				177262E51E5B9CE400B8590F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
